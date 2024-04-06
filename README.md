@@ -1,5 +1,8 @@
 # Movie Reviews - Sentiment Analysis (NLP)
-I have built this sentiment analysis project for my Natural Language Processing module at the British University in Dubai. This project aims to help streaming businesses - like Netflix and Amazon Prime - grow their revenue by analysing which movies are getting negative reviews and which have positive reviews. They can improve user experience by putting the positively reviewed movies at the top of the <i>"suggested"</i> list.
+I have built this sentiment analysis project for my Natural Language Processing module at the British University in Dubai. This project aims to help streaming businesses - like Netflix and Amazon Prime - grow their revenue by analysing which movies are getting negative reviews and which have positive reviews. They can improve user experience by putting the positively reviewed movies at the top of the <i>"suggested"</i> list. Adding onto our prediction model, I have integrated OpenAI to further enhance our results by giving the reviews a rating.
+
+To run it, you must first create a .env file and a variable inside this file called "OPENAI_API_KEY". Next, get your API key from OpenAI and paste it into this variable. This way you will also
+be keeping your API key safe. Now, simply run the cells and get your review analysis!
 ***
 <i>**<ins>First step</ins>**</i> <br>
 I gathered a movie reviews dataset with 50,000 reviews having equal amounts of positive and negative reviews. Furthermore, I pre-processed the data by removing strings that 
